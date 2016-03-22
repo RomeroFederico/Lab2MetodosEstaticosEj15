@@ -32,10 +32,10 @@ namespace Ejercicio_15
                 case "/":
                     if (Calculadora.Validar(numero2))
                         return numero1 / numero2;
-                    Console.Write("ERROR!!! No se puede dividir por 0. ");
+                    Console.WriteLine("- ERROR!!! No se puede dividir por 0. ");
                     break;
                 default:
-                    Console.Write("No se ha elegido una operacion correcta. ");
+                    Console.WriteLine("- ERROR!!! No se ha elegido una operacion correcta. ");
                     break;
             }
 
